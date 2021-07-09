@@ -1,6 +1,4 @@
-body {
-    /* font-family: 'Poppins', sans-serif; */
-}
+
 img {
     max-width: 100%;
 }
@@ -62,7 +60,7 @@ section {
     border: none;
 }
 .card-footer {
-    border-top: 0px; margin-bottom: 40px;
+    border-top: 0px; margin-bottom: 40px; background-color: #fff;
 }
 .date {
     display: inline-flex;
@@ -112,5 +110,8 @@ section {
 @media screen and (max-width: 767px) {
     .el_box img {
         max-width: 30%;
+    }
+    .banner_txt {
+        margin-bottom: 20px;
     }
 }
