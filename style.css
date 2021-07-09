@@ -100,6 +100,9 @@ section {
 .footer_box a{
     display: block; text-decoration: none; color: #fff; padding-bottom: 10px;
 }
+.footer_box h6 {
+    margin-bottom: 18px;
+}
 .footer_copyright {
     margin-top: 70px
 }
