@@ -1,0 +1,116 @@
+body {
+    /* font-family: 'Poppins', sans-serif; */
+}
+img {
+    max-width: 100%;
+}
+p {
+    color: gray; margin: 0;
+}
+section {
+    margin-bottom: 100px;
+}
+.green_btn {
+    display: inline-block; text-decoration: none; background-color: #21B573; color: #fff; padding: 10px 25px; border-radius: 25px / 25px;
+}
+.banner {
+    margin-top: 40px;
+}
+.banner_txt {
+    padding-right: 60px;
+}
+.banner_txt a {
+    display: inline-block; text-decoration: none; margin-bottom: 20px;
+}
+
+.banner_txt h1 {
+    font-size: 45px; font-weight: bold;
+}
+.banner_txt h1 span {
+    color: #21B573;
+}
+.banner_txt p {
+    margin: 30px 0;
+}
+.el_box {
+    text-align: center;  margin-bottom: 40px;
+}
+.el_box .f_img {
+    width: 40%
+}
+.el_box img {
+    margin-bottom: 20px;
+}
+.el_box h3 {
+    color: #413960;
+}
+.course_head h2 {
+    font-size: 30px; font-weight: bold; color: #413960;
+}
+.date img, .seat img {
+    width: 20%;
+}
+.seat img {
+    padding-right: 2%;
+}
+.date p, .seat p{
+    font-size: 13px;
+    margin-bottom: 0px;
+    padding-left: 8%;
+}
+.card {
+    border: none;
+}
+.card-footer {
+    border-top: 0px; margin-bottom: 40px;
+}
+.date {
+    display: inline-flex;
+    align-items: center;
+    width: 50%;
+    float: left;
+    padding: 0;
+}
+
+.seat {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+
+.test_innr{
+    margin-top: 60px;
+}
+.test_txt p {
+    font-size: 16px; font-weight: bold;
+}
+.card-text {
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #282531; padding: 50px 0px 20px 0px; 
+}
+.footer_innr p{
+    text-align: center;
+}
+.footer_box {
+    color: #fff; margin-bottom: 40px;
+}
+.footer_box a{
+    display: block; text-decoration: none; color: #fff; padding-bottom: 10px;
+}
+.footer_copyright {
+    margin-top: 70px
+}
+.footer_txt {
+    margin-bottom: 40px; padding-right: 60px;
+}
+
+@media screen and (max-width: 767px) {
+    .el_box img {
+        max-width: 30%;
+    }
+}
